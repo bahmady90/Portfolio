@@ -2,6 +2,7 @@
 import { forwardRef } from 'react';
 
 const ÜberMich = forwardRef<HTMLDivElement>((props, ref) => {
+  console.log(props)
   return (
     <div ref={ref} className="w-[90%] h-fit flex flex-col xl:grid xl:grid-cols-[40%_60%] ml-[5%] xl:ml-0">
       <h2 className=" text-[1rem] lg:text-[1.5rem] xl:text-[2rem] font-bold text-white lg:justify-self-center lg:self-start">
