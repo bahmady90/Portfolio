@@ -1,6 +1,7 @@
 import { forwardRef } from "react";
 
 const Kontakt = forwardRef<HTMLDivElement>((props, ref) => {
+    console.log(props)
 
     return (
         <div ref={ref} className="flex flex-col self-center justify-self-center w-[90%] justify-center gap-y-4 mb-4 ml-[5%] xl:ml-0">
