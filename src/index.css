@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(7, 6, 6); /* Apply background only to the page */
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color: transparent; /* Reset background for all other elements */
+}
+
+
+
+
+.fancy {
+    --offset: 3px;
+    background-color: black;
+    border-radius: 50px;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10; /* Ensures text appears on top */
+}
+
+/* Conic gradient */
+.fancy::before { 
+    content: '';
+    background: conic-gradient(transparent 270deg, rgb(34, 211, 238), transparent);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    aspect-ratio: 1;
+    width: 100%;
+    animation: rotate 4s linear infinite;
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Smooth transition for disappearing */
+}
+
+.fancy::after {
+    content: '';
+    background: inherit;
+    border-radius: inherit;
+    position: absolute;
+    inset: var(--offset);
+    height: calc(100% - 2 * var(--offset));
+    width: calc(100% - 2 * var(--offset));
+    opacity: 1;
+    transition: opacity 0.3s ease; /* Smooth transition for disappearing */
+}
+
+/* State-Based Styles */
+.fancy.is-selected {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.fancy.is-selected::before,
+.fancy.is-selected::after {
+    opacity: 0; /* Stops gradient animation when selected */
+}
+
+/* Hover Styles */
+.fancy:hover {
+    background-color: #cffafe;
+    font-weight: bold;
+}
+
+.fancy:hover::before,
+.fancy:hover::after {
+    opacity: 0;
+}
+
+.fancy:hover button {
+    color: black;
+}
+
+
+@keyframes rotate {
+    from {
+        transform: translate(-50%, -50%) scale(1.4) rotate(0turn);
+    }
+
+    to {
+        transform: translate(-50%, -50%) scale(1.4) rotate(1turn);
+    }
+}
+
