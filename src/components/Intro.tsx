@@ -5,7 +5,7 @@ type IntroProps = {
 }
 export default function Intro({onHandleScrollToContact}: IntroProps) {
   return (
-    <div className="flex flex-col md:flex-row self-center justify-center md:ml-[10%] lg:ml-0 items-center w-full lg:w-[90%] sm:gap-x-8 lg:gap-x-12 gap-y-[2rem] sm:gap-y-0">
+    <div className="flex flex-col sm:flex-row self-center justify-center  lg:ml-0 items-center w-full lg:w-[90%] sm:gap-x-8 lg:gap-x-12 gap-y-[2rem] sm:gap-y-0">
         <div className="flex flex-col justify-center justify-self-center self-center sm:ml-8 md:ml-0">
             <div className="flex flex-col justify-center mt-8">
                 <h1 className="uppercase text-[1rem] sm:text-[1.5rem] lg:text-[2rem] text-white">Hey, <span className="lowercase">ich bin</span> <br /> Belal Ahmady,</h1>

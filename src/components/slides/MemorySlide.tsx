@@ -18,7 +18,7 @@ export default function MemorySlide() {
 );
   return (
 
-    <div className="flex md:flex-row items-center flex-col gap-y-3 sm:gap-y-0 sm:gap-x-[5rem] xl:gap-x-[8rem]  justify-center ">
+    <div className="flex md:flex-row items-center flex-col gap-y-3 sm:gap-y-0 sm:gap-x-[3rem] xl:gap-x-[8rem]  justify-center ">
         <h1 className="block sm:hidden text-[1.5rem] md:text-[2rem] text-cyan-400 font-medium">
             Memory-Spiel
         </h1>

@@ -74,4 +74,3 @@ function App() {
 export default App
 
 
-//EInrückung bei AUflistung Projekte. Hier zur Github-Repo; Kontaktiere mich Bilder sind nicht symmetrisch / Abstände. Vielleicht mir Grautönen statt schwarz weiß. Alles ein bisschen kleiner 

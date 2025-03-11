@@ -6,7 +6,7 @@ const Kontakt = forwardRef<HTMLDivElement>((props, ref) => {
     return (
         <div ref={ref} className="flex flex-col self-center justify-self-center w-[90%] justify-center gap-y-4 mb-4 ml-[5%] xl:ml-0">
             <h2 className="text-[1rem] lg:text-[1.5rem] text-white font-bold">Kontaktieren Sie mich!</h2>
-            <p className=" text-[0.8rem] sm:text-[1rem] text-stone-300 lg:max-w-[80%]">Ich bin hochmotiviert,  in einem Praktikum bei Ihnen meine Programmierkentnisse einzubringen und praktische Erfahrungen zu sammeln – lassen Sie uns gemeinsam innovative Lösungen schaffen!</p>
+            <p className=" text-[0.8rem] sm:text-[1rem] text-stone-200 lg:max-w-[80%]">Ich bin hochmotiviert,  in einem Praktikum bei Ihnen meine Programmierkentnisse einzubringen und praktische Erfahrungen zu sammeln – lassen Sie uns gemeinsam innovative Lösungen schaffen!</p>
             <div className="grid grid-cols-2 grid-rows-2 gap-y-4 mt-4 lg:mr-4 xl:mr-0">
                 <div className="flex w-fit justify-self-center justify-center items-center gap-x-2 mr-4 group hover:bg-gray-900 cursor-pointer rounded-lg px-3 lg:px-4 py-1 lg:py-2 ">
                     <img src="phone.svg" alt="phone" className="w-6 sm:w-7 lg:w-8"/>
