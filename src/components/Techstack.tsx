@@ -20,7 +20,7 @@ export default function Techstack({stackSelected, handleSetStackSelected}: TechS
         stackSelected={stackSelected} 
         onClick={() => handleSetStackSelected("backend")}>Backend</AnimatedButton>
     </div>
-      <div className="relative w-[85%] sm:w-[70%] h-fit grid self-center justify-self-center transform transition-all duration-500 ease-in-out mb-[3rem] sm:mb-[5rem] lg:mb-[8rem]">
+      <div className="relative w-[85%] sm:w-[70%] h-fit grid self-center justify-self-center transform transition-all duration-500 ease-in-out mb-[3rem] sm:mb-[5rem] lg:mb-[8rem] bg-red-100">
           <div
             className={`absolute inset-0 grid grid-cols-5 gap-x-8 sm:gap-x-0 transition-opacity transform duration-500 ease-in-out ${
               stackSelected === "frontend" ? "opacity-100 " : "opacity-0 pointer-events-none"

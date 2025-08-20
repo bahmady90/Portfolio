@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(7, 6, 6); /* Apply background only to the page */
+    background-color: rgb(27, 22, 22); /* Apply background only to the page */
     margin: 0;
     padding: 0;
 }
@@ -19,7 +19,7 @@ body {
 
 .fancy {
     --offset: 3px;
-    background-color: black;
+    background-color: rgb(18, 18, 18);
     border-radius: 50px;
     position: relative;
     max-width: 100%;
@@ -28,7 +28,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    z-index: 10; /* Ensures text appears on top */
+    z-index: 10; 
 }
 
 /* Conic gradient */
