@@ -37,7 +37,7 @@ export default function ChessSlide() {
         title="Schachspiel mit bot"
         descriptionOne={chessDescription}
         descriptionTwo="Erstellt mit Tailwind, Typescript, React"
-        href="https://github.com/bahmady90/chess"
+        href="https://github.com/bahmady90/Schach"
       />
     </div>
   );
