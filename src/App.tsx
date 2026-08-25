@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { ThemeProvider } from "@material-tailwind/react";
 
 import Header from "./components/Header";
@@ -11,16 +11,9 @@ import ÜberMich from "./components/ÜberMich";
 import Kontakt from "./components/Kontakt";
 
 function App() {
-  const [stackSelected, setStackSelected] = useState("frontend");
-
   const projects = useRef<HTMLDivElement>(null);
   const about = useRef<HTMLDivElement>(null);
   const contact = useRef<HTMLDivElement>(null);
-
-  function handleSetStackSelected(stack: string) {
-    setStackSelected(stack);
-    console.log(stackSelected);
-  }
 
   function scrollToProjects() {
     if (projects.current) {

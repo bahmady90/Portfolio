@@ -24,7 +24,7 @@ export default function ProjectsIntro() {
         </span>
       </h2>
       <p className="ml-[2%] text-[0.8rem] lg:text-[1.3rem] xl:text-[1.7rem] text-stone-300 lg:mr-[5rem] max-w-[95%] text-center">
-        Ausgewählte Projekte, die meine Leidenschaft für Webentwicklung und Softwareentwicklung zeigen.
+        Ausgewählte Projekte, die meine Leidenschaft für die Softwareentwicklung zeigen.
       </p>
     </motion.div>
   );

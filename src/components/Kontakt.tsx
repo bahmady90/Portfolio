@@ -16,7 +16,7 @@ const contactItems: ContactItem[] = [
   { icon: "location.svg", alt: "location", label: "Köln, Deutschland", copyValue: "Köln, Deutschland" },
 ];
 
-const Kontakt = forwardRef<HTMLDivElement>((props, ref) => {
+const Kontakt = forwardRef<HTMLDivElement>((_props, ref) => {
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
   async function handleCopy(value: string, index: number) {

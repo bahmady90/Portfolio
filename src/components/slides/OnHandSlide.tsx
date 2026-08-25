@@ -1,4 +1,4 @@
-import { HiOutlineSparkles, HiOutlineBell, HiOutlineCalendarDays, HiOutlineCamera, HiOutlineMagnifyingGlass, HiOutlineArrowPath, HiOutlineEnvelope, HiOutlineCog6Tooth } from "react-icons/hi2";
+import { HiOutlineSparkles, HiOutlineBell, HiOutlineCalendarDays, HiOutlineCamera, HiOutlineMagnifyingGlass, HiOutlineArrowPath, HiOutlineEnvelope, HiOutlineLanguage } from "react-icons/hi2";
 import { Carousel } from "../Carousel";
 import ProjectDescription from "../ProjectDescription";
 
@@ -17,7 +17,7 @@ const onHandFeatures = [
   { icon: HiOutlineMagnifyingGlass, text: "Smarte Suche" },
   { icon: HiOutlineArrowPath, text: "Synchronisierung zwischen Geräten" },
   { icon: HiOutlineEnvelope, text: "Gmail-Integration" },
-  { icon: HiOutlineCog6Tooth, text: "Personalisierbare Einstellungen" },
+  { icon: HiOutlineLanguage, text: "Mehrsprachigkeit" },
 ];
 
 export default function OnHandSlide() {
