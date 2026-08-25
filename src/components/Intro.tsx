@@ -35,7 +35,7 @@ export default function Intro({onHandleScrollToContact}: IntroProps) {
                 
             </div>
         </div>
-        <img src="meUpScaled.png" className="rounded-[20%] w-[70%] sm:w-[40%] h-[70%] sm:h-[50%] xl:w-[30%] xl:h-[40%]"></img>
+        <img src="avatar.png" className="rounded-[20%] w-[70%] sm:w-[40%] h-[70%] sm:h-[50%] xl:w-[30%] xl:h-[40%] border border-[#101b38]"></img>
 
     </div>
 

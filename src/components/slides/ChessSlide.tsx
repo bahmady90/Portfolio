@@ -1,3 +1,4 @@
+import { HiOutlineCpuChip, HiOutlineDevicePhoneMobile, HiOutlineBolt, HiOutlineSpeakerWave } from "react-icons/hi2";
 import { Carousel } from "../Carousel";
 import ProjectDescription from "../ProjectDescription";
 
@@ -19,24 +20,24 @@ const myMoodleImages = [
   },
 ];
 
-export default function ChessSlide() {
-  const chessDescription = (
-    <>
-      Komplett responsive Gruppenprojekt mit integrierter Schachki und modernem
-      Layout.
-    </>
-  );
+const chessFeatures = [
+  { icon: HiOutlineCpuChip, text: "Schach-KI als Gegner" },
+  { icon: HiOutlineDevicePhoneMobile, text: "Modernes, komplett responsives Layout" },
+  { icon: HiOutlineBolt, text: "Bot-Berechnung im Web Worker" },
+  { icon: HiOutlineSpeakerWave, text: "Soundeffekte & Spielstatistiken" },
+];
 
+export default function ChessSlide() {
   return (
     <div className="flex md:flex-row items-center flex-col gap-y-3 sm:gap-y-0 sm:gap-x-[3rem] lg:gap-x-[5rem] xl:gap-x-[8rem]  justify-center">
       <h1 className="block sm:hidden text-[1.5rem] md:text-[2rem] text-cyan-400 font-medium">
         Schach mit Bot
       </h1>
-      <Carousel images={myMoodleImages} />
+      <Carousel images={myMoodleImages} phone={false}/>
       <ProjectDescription
         title="Schachspiel mit bot"
-        descriptionOne={chessDescription}
-        descriptionTwo="Erstellt mit Tailwind, Typescript, React"
+        features={chessFeatures}
+        techStack={["Tailwind", "TypeScript", "React"]}
         href="https://github.com/bahmady90/Schach"
       />
     </div>
