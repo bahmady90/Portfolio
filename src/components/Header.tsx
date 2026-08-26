@@ -25,7 +25,7 @@ export default function Header({onHandleScrollToProjects, onHandleScrollToAbout,
               padding="py-[1.5rem] px-[3.5rem]">Projekte</AnimatedButton>
             <AnimatedButton
               onClick={onHandleScrollToAbout} 
-              padding="py-[1.5rem] px-[3.5rem]">About</AnimatedButton>
+              padding="py-[1.5rem] px-[3.5rem]">Ueber mich</AnimatedButton>
             <AnimatedButton
               onClick={onHandleScrollToContact} 
               padding="py-[1.5rem] px-[3.5rem]">Kontakt</AnimatedButton>

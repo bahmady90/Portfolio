@@ -35,7 +35,7 @@ export default function ChessSlide() {
       </h1>
       <Carousel images={myMoodleImages} phone={false}/>
       <ProjectDescription
-        title="Schachspiel mit bot"
+        title="Schachspiel mit Bot"
         features={chessFeatures}
         techStack={["Tailwind", "TypeScript", "React"]}
         href="https://github.com/bahmady90/Schach"

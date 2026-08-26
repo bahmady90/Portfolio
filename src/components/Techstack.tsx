@@ -116,6 +116,12 @@ export default function TechStack() {
       ref={ref}
       className="mx-auto max-w-xl px-4 py-10 sm:max-w-2xl sm:px-8 sm:py-14 lg:max-w-5xl lg:py-20"
     >
+      <h2
+        className="mb-6 text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] bg-gradient-to-r from-sky-100 to-cyan-300 bg-clip-text text-transparent font-bold sm:mb-10 lg:mb-14"
+        style={{ fontFamily: "'Spectral', serif" }}
+      >
+        Tech-Stack
+      </h2>
       <motion.div
         initial="hidden"
         animate={isInView ? "visible" : "hidden"}
