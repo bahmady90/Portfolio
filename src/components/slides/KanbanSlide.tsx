@@ -31,7 +31,6 @@ export default function KanbanSlide() {
         techStack={["Tailwind", "TypeScript", "Angular", "Java", "Spring", "MongoDB"]}
         href="https://github.com/bahmady90/kanban"
       />
-
     </div>
   )
 }
