@@ -9,6 +9,7 @@ type Feature = {
 
 type ProjectDescriptionProps = {
   title: string;
+  description: string;
   features: Feature[];
   techStack: string[];
   href?: string;
@@ -18,6 +19,7 @@ type ProjectDescriptionProps = {
 
 export default function ProjectDescription({
   title,
+  description,
   features,
   techStack,
   href,
@@ -37,6 +39,10 @@ export default function ProjectDescription({
           </span>
         )}
       </div>
+
+      <p className="text-slate-300 text-[0.95rem] leading-snug mt-3">
+        {description}
+      </p>
 
       <div className="border-b border-slate-700/60 mt-4 mb-6" />
 

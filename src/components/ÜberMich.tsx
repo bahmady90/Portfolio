@@ -5,7 +5,7 @@ const ÜberMich = forwardRef<HTMLDivElement>((props, ref) => {
   console.log(props)
   return (
     <div ref={ref} className="w-full h-fit flex flex-col xl:grid xl:grid-cols-[40%_60%] ml-[5%] xl:ml-0 rounded-2xl self-center justify-self-center p-6 sm:p-8">
-      <h2 className=" text-[1rem] lg:text-[1.5rem] xl:text-[2rem] font-bold text-white lg:justify-self-center lg:self-start">
+      <h2 className=" text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] text-sky-100 bg-clip-text text-transparent lg:justify-self-center lg:self-start font-bold">
         Über mich
       </h2>
       <div className="flex flex-col gap-y-5 justify-self-center self-start mt-5">

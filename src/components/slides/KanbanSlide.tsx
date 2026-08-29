@@ -26,8 +26,9 @@ export default function KanbanSlide() {
       <Carousel images={kabanImages} phone={false}/>
       <ProjectDescription
         title="Kanban-Webapp"
+        description="Eine Kanban-Board-App zur visuellen Organisation von Aufgaben per Drag-and-Drop."
         features={kanbanFeatures}
-        techStack={["Tailwind", "TypeScript", "React", "Node.js", "Mongoose"]}
+        techStack={["Tailwind", "TypeScript", "Angular", "Java", "Spring", "MongoDB"]}
         href="https://github.com/bahmady90/kanban"
       />
 

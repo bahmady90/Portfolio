@@ -30,6 +30,7 @@ export default function OnHandSlide() {
       <Carousel images={onHandImages} phone={true}/>
       <ProjectDescription
         title="OnHand native App"
+        description="Eine native App zur KI-gestützten Verwaltung und Organisation persönlicher Dokumente."
         features={onHandFeatures}
         techStack={["Tailwind", "TypeScript", "React", "NestJS", "Postgres", "TypeORM"]}
         inProgress
