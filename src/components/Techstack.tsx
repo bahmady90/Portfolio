@@ -39,7 +39,7 @@ const categories: Category[] = [
       { name: "TypeScript", icon: <SiTypescript />, color: "#3178C6" },
       { name: "Tailwind CSS", icon: <SiTailwindcss />, color: "#38BDF8" },
       { name: "HTMX", icon: <SiHtmx />, color: "#3D72D7" },
-      { name: "Angular", icon: <SiAngular />, color: "#DD0031", basics: true },
+      { name: "Angular", icon: <SiAngular />, color: "#DD0031" },
     ],
   },
   {
@@ -47,6 +47,7 @@ const categories: Category[] = [
     items: [
       { name: "Node.js", icon: <FaNodeJs />, color: "#8CC84B" },
       { name: "NestJS", icon: <SiNestjs />, color: "#E0234E" },
+      { name: "Java", icon: <FaJava />, color: "#EA2D2E" },
       { name: "Spring", icon: <SiSpring />, color: "#6DB33F" },
       { name: "PostgreSQL", icon: <SiPostgresql />, color: "#336791" },
       { name: "TypeORM", icon: <SiTypeorm />, color: "#FE0803" },
@@ -57,7 +58,6 @@ const categories: Category[] = [
     items: [
       { name: "Python", icon: <FaPython />, color: "#3776AB", basics: true },
       { name: "C# / .NET", icon: <SiDotnet />, color: "#512BD4", basics: true },
-      { name: "Java", icon: <FaJava />, color: "#EA2D2E" },
     ],
   },
   {
