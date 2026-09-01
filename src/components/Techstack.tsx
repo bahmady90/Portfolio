@@ -117,7 +117,7 @@ export default function TechStack() {
       className="mx-auto max-w-xl px-4 py-10 sm:max-w-2xl sm:px-8 sm:py-14 lg:max-w-5xl lg:py-20"
     >
       <h2
-        className="mb-6 text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] text-sky-100 bg-clip-text text-transparent font-bold sm:mb-10 lg:mb-14"
+        className="mb-6 text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] text-cyan-50 font-bold sm:mb-10 lg:mb-14"
         style={{ fontFamily: "'Spectral', serif" }}
       >
         Tech-Stack

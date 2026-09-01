@@ -19,7 +19,7 @@ export default function ProjectsIntro() {
 
       <h2 
         style={{ fontFamily: "'Spectral', serif" }}
-        className="ml-[2%] text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] text-sky-100 bg-clip-text text-transparent font-bold md:mr-[5rem] ">
+        className="ml-[2%] text-[1.5rem] sm:text-[1.8rem] md:text-[2.5rem] text-cyan-50 font-bold md:mr-[5rem] ">
         Meine Projekte
       </h2>
       <p className="ml-[2%] text-[0.8rem] lg:text-[1.3rem] xl:text-[1.7rem] text-stone-300 lg:mr-[5rem] max-w-[95%] text-center">
