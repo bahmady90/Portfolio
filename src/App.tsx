@@ -7,6 +7,8 @@ import Techstack from "./components/Techstack";
 import "./index.css";
 import Projects from "./components/Projects";
 import ProjectsIntro from "./components/ProjectsIntro";
+import ProjektarbeitIntro from "./components/ProjektarbeitIntro";
+import Projektarbeit from "./components/Projektarbeit";
 import ÜberMich from "./components/ÜberMich";
 import Kontakt from "./components/Kontakt";
 
@@ -53,6 +55,8 @@ function App() {
         <Techstack/>
         <ProjectsIntro />
         <Projects ref={projects} />
+        <ProjektarbeitIntro />
+        <Projektarbeit />
         <div className="relative h-fit grid lg:grid-cols-2 grid-rows-2 lg:grid-rows-1 w-full sm:w-screen gap-y-6 sm:gap-y-0 py-8">
           <div
             className="absolute -top-px left-1/2 h-0.5 w-[90%] -translate-x-1/2 rounded-full"

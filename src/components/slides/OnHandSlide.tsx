@@ -32,7 +32,7 @@ export default function OnHandSlide() {
         title="OnHand native App"
         description="Eine native App zur KI-gestützten Verwaltung und Organisation persönlicher Dokumente."
         features={onHandFeatures}
-        techStack={["Tailwind", "TypeScript", "React", "NestJS", "Postgres", "TypeORM"]}
+        techStack={["Tailwind", "TypeScript", "React", "Capacitor", "NestJS", "Postgres", "TypeORM"]}
         inProgress
         privateRepo
       />
