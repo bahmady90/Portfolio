@@ -45,7 +45,7 @@ export function Carousel({images, phone} : CarouselProps) {
     <div className="relative w-fit mx-auto">
       <div className="rounded-xl">
         <Anker href={images[currentIndex].href}>
-          <Image src={images[currentIndex].src} alt={images[currentIndex].alt} fadeClass={fadeClass} phone={phone} href={images[currentIndex].href} />
+          <Image src={images[currentIndex].src} alt={images[currentIndex].alt} fadeClass={fadeClass} phone={phone} />
         </Anker>
       </div>
 
