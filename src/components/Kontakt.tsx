@@ -12,7 +12,7 @@ type ContactItem = {
 const contactItems: ContactItem[] = [
   { icon: "phone.svg", alt: "phone", label: "+0049 17684980120", copyValue: "+0049 17684980120" },
   { icon: "whatsapp.svg", alt: "whatsapp", label: "+0049 17684980120", copyValue: "+0049 17684980120" },
-  { icon: "email.svg", alt: "email", label: "b.ahmady@gmx.de", copyValue: "b.ahmady@gmx.de" },
+  { icon: "email.svg", alt: "email", label: "belal.ahmady19901008@gmail.com", copyValue: "belal.ahmady19901008@gmail.com" },
   { icon: "location.svg", alt: "location", label: "Köln, Deutschland", copyValue: "Köln, Deutschland" },
 ];
 
